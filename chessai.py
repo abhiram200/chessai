@@ -250,7 +250,7 @@ SVG(chess.svg.board(board=board, size=400))
 # movehistory = []
 # game = chess.pgn.Game()
 # board = chess.Board()
-# engine = chess.engine.SimpleEngine.popen_uci(r"C:\Users\Abhiram R.S\Desktop\stockfish.exe")
+# engine = chess.engine.SimpleEngine.popen_uci(r"path_to\stockfish.exe")
 # while not board.is_game_over(claim_draw=True):
 #     if board.turn == color:
 #         count += 1
